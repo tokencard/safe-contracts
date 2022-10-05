@@ -1,4 +1,4 @@
-Gnosis Safe Contracts
+Gnosis Safe Contracts - Tokencard fork 1.3.0
 =====================
 
 [![npm version](https://badge.fury.io/js/%40gnosis.pm%2Fsafe-contracts.svg)](https://badge.fury.io/js/%40gnosis.pm%2Fsafe-contracts)
@@ -24,7 +24,7 @@ yarn test
 
 A collection of the different Safe contract deployments and their addresses can be found in the [Safe deployments](https://github.com/gnosis/safe-deployments) repository.
 
-To add support for a new network follow the steps of the ``Deploy`` section and create a PR in the [Safe deployments](https://github.com/gnosis/safe-deployments) repository. 
+To add support for a new network follow the steps of the ``Deploy`` section and create a PR in the [Safe deployments](https://github.com/gnosis/safe-deployments) repository.
 
 ### Deploy
 
@@ -53,7 +53,7 @@ yarn hardhat --network <network> local-verify
 
 It is possible to use the `NODE_URL` env var to connect to any EVM based network via an RPC endpoint. This connection then can be used with the `custom` network.
 
-E.g. to deploy the Safe contract suite on that network you would run `yarn deploy-all custom`. 
+E.g. to deploy the Safe contract suite on that network you would run `yarn deploy-all custom`.
 
 The resulting addresses should be on all networks the same.
 
